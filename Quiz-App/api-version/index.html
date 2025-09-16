@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizArena by Digvijay</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <div class="toggle-container">
+    <button id="dark-toggle">🌙 Dark Mode</button>
+  </div>
+
+  <div class="quiz-container">
+    <h1>QuizArena <span>by Digvijay</span> ⏳</h1>
+
+    <!-- Subject Selection Menu -->
+    <div id="menu-box" class="box">
+      <h2>Select a Subject</h2>
+      <div class="quiz-grid">
+        <button class="quiz-btn" data-category="9">General Knowledge</button>
+        <button class="quiz-btn" data-category="18">Computers</button>
+        <button class="quiz-btn" data-category="19">Math</button>
+        <button class="quiz-btn" data-category="23">History</button>
+        <button class="quiz-btn" data-category="21">Sports</button>
+      </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div id="quiz-box" class="box hidden">
+      <p id="question">Loading question...</p>
+      <ul id="options"></ul>
+      <p id="timer">⏰ Time Left: <span id="time">15</span>s</p>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <!-- Result Box -->
+    <div id="result-box" class="box hidden">
+      <h2>Your Score</h2>
+      <p id="score"></p>
+      <button id="restart-btn">Restart Quiz</button>
+      <button id="home-btn">Back to Menu</button>
+    </div>
+
+    <!-- History Box -->
+    <div id="history-box" class="box">
+      <h2>Score History</h2>
+      <ul id="history"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

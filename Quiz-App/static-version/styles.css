@@ -1,0 +1,106 @@
+/* Gradient Background */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #9271b4 0%, #2575fc 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Main Container */
+.quiz-container {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+  width: 90%;
+  max-width: 450px;
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Heading */
+.quiz-container h1 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 15px;
+}
+.quiz-container h1 span {
+  color: #6a11cb;
+}
+
+/* Boxes */
+.box {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: inset 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Hidden class */
+.hidden {
+  display: none;
+}
+
+/* Quiz Options */
+#options {
+  list-style: none;
+  padding: 0;
+}
+
+#options li {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  font-weight: 500;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#options li:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ff4b2b, #ff416c);
+}
+
+/* Quiz Menu Grid */
+.quiz-grid {
+  display: grid;
+  gap: 12px;
+}
+
+/* Timer */
+#timer {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}

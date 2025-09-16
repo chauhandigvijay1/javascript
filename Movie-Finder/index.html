@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Finder App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 CineScope by Digvijay</h1>
+        
+        <!-- Search Section -->
+        <div class="search-box">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search for movies..." required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        
+        <!-- Loading -->
+        <div id="loading" class="loading hidden">
+            <p>Searching movies...</p>
+        </div>
+        
+        <!-- Results Section -->
+        <div id="results" class="results"></div>
+        
+        <!-- No Results -->
+        <div id="no-results" class="no-results hidden">
+            <p>No movies found. Try another search!</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
