@@ -127,6 +127,3 @@ Your support motivates me to build more cool projects! 💡🔥
 ---
 
 Stay tuned for updates! 🚀
-
-   ```bash
-   git clone https://github.com/your-username/javascript-projects.git
