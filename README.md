@@ -1,5 +1,11 @@
 # 🚀 JavaScript Projects Collection by Digvijay Kumar Singh  
 
+![JavaScript](https://img.shields.io/badge/JavaScript-Projects-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-Markup-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![API Integration](https://img.shields.io/badge/API-Integration-FF9800?style=for-the-badge)
+![Netlify](https://img.shields.io/badge/Netlify-Live%20Projects-8E44AD?style=for-the-badge&logo=netlify&logoColor=white)
+
 This repository contains my **JavaScript projects** built as part of my learning journey in **HTML5, CSS3, and JavaScript (ES6+)**.  
 Each project demonstrates different skills – from DOM manipulation to API integration to building interactive apps.  
 
